@@ -1,7 +1,5 @@
 $(document).ready(function () {
 	$(".modal").modal();
-
-
 });
 
 var agregarContactos= function(e){
@@ -32,9 +30,3 @@ var agregarContactos= function(e){
     
 };
 
-//Esta funcion se supone que imprime en el area designada para impresion
-/*	$("[data-publication]").on("click", function (event) {
-		var container = document.getElementById("areaMostrado");
-		var type = $(event.currentTarget).data("publication");
-		publish(container, type);
-	});*/
